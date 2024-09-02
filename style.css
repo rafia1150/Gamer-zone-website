@@ -277,7 +277,6 @@ nav{
     text-align: center;
     background-color:#0B0223 ;
     padding:80px;
-
 }
 
 
@@ -490,7 +489,167 @@ nav{
 
 
 @media screen and (min-width:577px) and (max-width:992px) {
+    nav, .nav_title ul{
+        flex-direction: column;
+    }
+    .play_container, .play_des, .img_title, .main_fourth{
+        flex-direction: column;
+    }
+    .banner_img img, .play_des img{
+        max-width: 100%;
+    }
     
+    .game_info h1{
+        font-size:50px;
+    }
+    .game_info p, .game_info h3, .game_info h2{
+        font-size: 25px;
+    }
+    .btn_primary, .btn_secondry{
+        font-size:26px;
+        padding:5px;
+    }
+.gamer_logo img{
+    width:20%;
+    padding-top: 35px;
+}
+.gamer_logo{
+    margin-left: 230px;
+}
+.menu_logo a {
+        font-size:25px;
+}
+.play_titles h2{
+        font-size: 40px;
+}
+.play_titles h1{
+      font-size: 54px;
+}
+.play_titles, .game_info, .img_title_info{
+    text-align: center;
+}
+.banner_des{
+    margin-left: 170px;
+}
+.banner_des p{
+    font-size:20px;
+    padding-left:0px;
+}
+.four_img{
+        display:flex;
+        padding-left:0px;
+        padding-bottom: 10px;
+}
+.main_container{
+    padding:0px 0px 0px 0px;
+}
+.online h1{
+    font-size: 35px;
+    font-weight: 100;
+}
+.online p, .image_info p{
+    font-size:20px;
+    text-align: center;
+}
+.image_info img{
+    padding:0px;
+    width:80%;
+} 
+.main_3rd_section{
+    margin:0px;
+}
+.img_title h1{
+    font-size:34px;
+}
+.img_title p, .see_all h2{
+    font-size: 20px;
+}
+.img_title img{
+    width:100%;
+}
+
+.position_img_1 img{
+    width:215px;
+    position:absolute;
+    bottom: 0px;
+    top:0px;
+    right: 627px;
+}
+
+.img_title img{
+    margin-bottom: 70px;
+}
+.position_img_2 img{
+        text-align: center;
+        position:relative;
+        bottom:370px;
+        left:400px;
+       width:200px;
+}
+
+.careers{
+    padding-left: 15px;
+    padding-top: 15px;
+}
+.careers_info p{
+    font-size: 19px;
+}
+.description_p p{
+    font-size: 25px;
+}
+.see_all{
+    width:220px;
+}
+.icons_container{
+    padding:56px;
+    margin:5px;
+}
+ 
+.icons_title{
+    padding:5px;
+    width:80px;
+}
+.icons_title h3{
+    font-size:8px;
+}
+.four_icons{
+    padding-left: 56px;
+}
+.five_icons{
+    padding-left: 20px;
+}
+.icons_title img{
+    padding:0px;
+    width:20px;
+}
+.gamer_picture{
+    margin-left: 230px;
+}
+.gamer_picture h1{
+    font-size: 30px;
+}
+.gamer_picture img{
+    width:60px;
+    padding-top: 30px;
+}
+.footer_des h3{
+    padding:12px;
+    font-size: 18px;
+    /* width:100px; */
+}
+.footer_des, .terms{
+    margin-left: 0px; 
+}
+.terms h5{
+    padding:10px;
+    font-size: 20px;
+}
+.footer_nav p{
+    font-size: 20px;
+}
+.footer_container{
+    padding:30px;
+}
     
 
 
