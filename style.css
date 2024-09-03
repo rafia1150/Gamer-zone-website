@@ -167,49 +167,42 @@ nav{
 }
 /* second section done */
 
-.img_title h1{
-         font-size: 60px;
+.instant, .anytime{
+    display: flex;
+    justify-content: space-around;
+    padding:100px;
 }
+.instant_content h1, .anytime_contant h1{
+      font-size: 60px;
+}
+.instant_content p, .anytime_contant p{
+    font-size: 30px;
+    color: #6b6579;
+} 
 .Instantly{
         color:#FF42A5;
 }
-.img_title{
-      display:flex;
-      justify-content: space-around;
+.instant_img, .anytime_img{
+    position:relative;
+    max-width:80%;
 }
-.img_title_info p{
-     font-size: 22px;
-     color: #6b6579;
-}
+
+
 .position_img_1{
-    bottom: 100px;
-    text-align: center;
-    position:relative;
-    top:-250px;
-    right:-170px;
-}
-.position_img_1 img{
-    width:350px;
-}
-.img_title img{
-    width:100%;
-}
-/* 1st part done of 3rd section */
+    position:absolute;
+    left:-145px;
+    bottom:-63px;
+} 
 .position_img_2{
-    text-align: center;
-    position:relative;
-    bottom:190px;
-    left:-160px;
+    position:absolute;
+    bottom: -90px;
+    right:-92px;
 }
 .anywhere{
     color:#f88bfb;
 }
- .main_3rd_section{
-    padding:70px;
-    margin:50px;
-    max-width: 80%;
- }
-/* 2nd part done of 3rd section */
+ 
+/* 3rd section done */
 
 
 .main_fourth{
@@ -328,7 +321,7 @@ nav{
     nav, .nav_title ul{
         flex-direction: column;
     }
-    .play_container, .play_des, .img_title, .main_fourth{
+    .play_container, .play_des, .main_fourth{
         flex-direction: column;
     }
     .banner_img img, .play_des img{
@@ -361,7 +354,7 @@ nav{
 .play_titles h1{
       font-size: 25px;
 }
-.play_titles, .game_info, .img_title_info{
+.play_titles, .game_info{
     text-align: center;
 }
 .banner_des{
@@ -391,40 +384,32 @@ nav{
     padding:opx;
     
 } 
-.img_title h1{
-    font-size:20px;
-}
-.img_title p, .see_all h2{
+.see_all h2{
     font-size: 10px;
 }
-.img_title img{
+.instant, .anytime{
+    flex-direction: column;
+    padding:0px;
+    text-align: center;
+}
+.instant_content h1, .anytime_contant h1{
+      font-size: 20px;
+}
+.instant_content p, .anytime_contant p{
+    font-size: 15px;
+} 
+.instant_img img, .anytime_img img{
     width:100%;
+    padding-bottom: 100px;
+    margin:25px;
 }
 
 .position_img_1 img{
-    width:100px;
-    position:absolute;
-    bottom: 0px;
-    top: 100px;
-    right: 380px;
-}
- .main_3rd_section{
-        /* padding:0px; */
-        margin:0px;
-        /* max-width: 100%;  */
- }
-
-.img_title img{
-    margin-bottom: 60px;
+    width:40%;
 }
 .position_img_2 img{
-        text-align: center;
-        position:relative;
-        bottom:135px;
-        left:293px;
-       width:100px;
+    width:40%;
 }
-
 .careers{
     padding-left: 5px;
     padding-top: 5px;
@@ -492,7 +477,7 @@ nav{
     nav, .nav_title ul{
         flex-direction: column;
     }
-    .play_container, .play_des, .img_title, .main_fourth{
+    .play_container, .play_des, .main_fourth{
         flex-direction: column;
     }
     .banner_img img, .play_des img{
@@ -525,7 +510,7 @@ nav{
 .play_titles h1{
       font-size: 54px;
 }
-.play_titles, .game_info, .img_title_info{
+.play_titles, .game_info{
     text-align: center;
 }
 .banner_des{
@@ -555,37 +540,33 @@ nav{
     padding:0px;
     width:80%;
 } 
-.main_3rd_section{
-    margin:0px;
-}
-.img_title h1{
-    font-size:34px;
-}
-.img_title p, .see_all h2{
+.see_all h2{
     font-size: 20px;
 }
-.img_title img{
-    width:100%;
+.instant, .anytime{
+    flex-direction: column;
+    padding:0px;
+    text-align: center;
+}
+.instant_content h1, .anytime_contant h1{
+      font-size: 35px;
+}
+.instant_content p, .anytime_contant p{
+    font-size: 25px;
+} 
+.instant_img img, .anytime_img img{
+    width:90%;
+    padding-bottom: 100px;
+    margin:25px;
 }
 
 .position_img_1 img{
-    width:215px;
-    position:absolute;
-    bottom: 0px;
-    top:0px;
-    right: 627px;
-}
-
-.img_title img{
-    margin-bottom: 70px;
+    width:55%;
 }
 .position_img_2 img{
-        text-align: center;
-        position:relative;
-        bottom:370px;
-        left:400px;
-       width:200px;
+    width:55%;
 }
+
 
 .careers{
     padding-left: 15px;
@@ -595,7 +576,7 @@ nav{
     font-size: 19px;
 }
 .description_p p{
-    font-size: 25px;
+    font-size: 15px;
 }
 .see_all{
     width:220px;
